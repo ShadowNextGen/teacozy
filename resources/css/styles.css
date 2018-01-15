@@ -10,9 +10,13 @@ body {
 header {
   display: flex;
   flex-direction: row;
+  height: 69px;
+  position: fixed;
+  border-bottom: 1px solid seashell;
 }
 
 .logo img {
   margin-right: 10px;
+  width: 10px;
   height: 50px;
 }
