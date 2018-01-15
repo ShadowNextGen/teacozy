@@ -6,3 +6,13 @@ body {
   opacity: 0.9;
   text-align: center;
 }
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo img {
+  margin-right: 10px;
+  height: 50px;
+}
