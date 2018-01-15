@@ -24,4 +24,5 @@ header {
 nav span {
   padding: 10px 50px;
   display: inline-block;
+  justify-content: flex-end;
 }
