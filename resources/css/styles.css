@@ -23,4 +23,5 @@ header {
 
 header nav {
   padding-right: 10px;
+  justify-content:flex-end;
 }
