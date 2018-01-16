@@ -15,7 +15,6 @@ header {
   width: 100%;
   position: fixed;
   border-bottom: 1px solid seashell;
-  text-decoration:underline;
 }
 
 .logo img {
@@ -28,4 +27,5 @@ nav span {
   display: inline-block;
   justify-content: flex-end;
   color: seashell;
+  text-decoration: underline;
 }
