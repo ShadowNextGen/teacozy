@@ -27,5 +27,5 @@ nav span {
   display: inline-block;
   color: seashell;
   text-decoration: underline;
-  justify-content: flex-end;
+  text-align: right;
 }
