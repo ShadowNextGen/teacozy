@@ -17,7 +17,13 @@ header {
   z-indez: 1;
 }
 
-.logo img {
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+img {
   padding-left: 10px;
   height: 50px;
 }
