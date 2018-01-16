@@ -10,6 +10,7 @@ body {
 header {
   display: flex;
   flex-direction: row;
+  align-items: center;
   height: 69px;
   width: 100%;
   position: fixed;
