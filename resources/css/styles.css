@@ -40,27 +40,3 @@ img.missionbackground {
   height: 700px;
   margin-top: 70px;
 }
-
-h2, h3, h4 {
-  margin: 0;
-  padding: 10px;
-}
-
-h2 {
-  display: block;
-  font-weight: bold;
-  font-family: Helvetica;
-  text-color: seashell;
-  text-align: center;
-}
-
-h4 {
-  display: block;
-  margin-before: 1.33em;
-  margin-after: 1.33em;
-  margin-start: 0px;
-  margin-end: 0px;
-  font-weight: bold;
-  font-family: Helvetica;
-  text-align: center;
-}
