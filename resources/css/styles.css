@@ -47,7 +47,7 @@ nav span {
   display: table;
 }
 
-.missionbackgroundimage {
+img.missionbackgroundimage {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
