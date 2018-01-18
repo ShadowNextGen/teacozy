@@ -24,7 +24,7 @@ header {
 }
 
 img {
-  align-items: left; 
+  align-items: left;
   padding: 10px;
   height: 50px;
 }
@@ -32,4 +32,9 @@ img {
 nav span {
   display: inline-block;
   padding: 10px 50px;
+}
+
+.bedford {
+  width: 1200px;
+  height: 700px;
 }
