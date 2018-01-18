@@ -9,22 +9,25 @@ body {
 }
 
 header {
+  display: flex;
+  justify-content: row;
   width: 100%;
   position: fixed;
   height: 69px;
   border-bottom: 1px solid seashell;
-  align-items: center;
   z-indez: 1;
 }
 
 .flex-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: row;
 }
 
 img.logo {
-  align-items: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   padding: 10px;
   height: 50px;
 }
@@ -34,21 +37,17 @@ nav span {
   padding: 10px 69px;
 }
 
-.mission {
+.missionlogo {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  text-align: center;
   width: 1200px;
   height: 700px;
-  text-align: center;
-  background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg) no-repeat;
-  position: relative;
+  color: seashell;
+  display: inline-flex;
 }
 
-.missionbackground {
-  position: absolute;
-  display: table;
-}
-
-img.missionbackgroundimage {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
+.missionlogo h2 h4 {
+  width: 100%;
+  background: black;
+  align-items: center;
 }
