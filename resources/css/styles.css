@@ -34,9 +34,20 @@ nav span {
   padding: 10px 69px;
 }
 
-img.missionbackground {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+.mission {
   width: 1200px;
   height: 700px;
-  margin-top: 70px;
+  background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg) no-repeat;
+  position: relative;
+}
+
+.missionbackground {
+  position: absolute;
+  display: table;
+}
+
+.missionbackgroundimage {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }
