@@ -41,10 +41,15 @@ img.missionbackground {
   margin-top: 70px;
 }
 
-h2 h4 {
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+h2 {
+  display: block;
+  font-weight: bold;
   font-family: Helvetica;
-  color: seashell;
-  background-color: black;
-  opacity: 0.9;
+  text-color: seashell;
   text-align: center;
 }
