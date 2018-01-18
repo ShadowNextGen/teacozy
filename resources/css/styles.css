@@ -23,7 +23,7 @@ header {
   flex-direction: row;
 }
 
-img.flex-container {
+img.logo {
   align-items: left;
   padding: 10px;
   height: 50px;
