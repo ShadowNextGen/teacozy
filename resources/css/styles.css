@@ -48,7 +48,7 @@ nav span {
 }
 
 h2, h4 {
-  opacity: .9;
+
   vertical-align: center;
   z-index: 1;
   background: black;
@@ -57,7 +57,7 @@ h2, h4 {
 }
 
 h2 {
-  margin-top: 25%;
+  margin-top: 26%;
   margin-bottom: 0;
 }
 
