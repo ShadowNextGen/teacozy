@@ -48,9 +48,20 @@ nav span {
 }
 
 h2, h4 {
-  margin-top: 25%;
-  width: 1200px;
-  height: 700px;
   opacity: .9;
   vertical-align: center;
+  z-index: 1;
+  background: black;
+  width: 1200px;
+  position: middle;
+}
+
+h2 {
+  margin-top: 25%;
+  margin-bottom: 0;
+}
+
+h4 {
+  margin-top: 0;
+  margin-bottom: 25%;
 }
