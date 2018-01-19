@@ -44,10 +44,12 @@ nav span {
   height: 700px;
   color: seashell;
   display: inline-flex;
+  margin-top: 72px;
 }
 
-.missionlogo h2 h4 {
-  width: 100%;
-  background: black;
-  align-items: center;
+h2, h4 {
+  margin-top: 50%;
+  vertical-align: middle;
+  width: 1200px;
+  height: 700px;
 }
