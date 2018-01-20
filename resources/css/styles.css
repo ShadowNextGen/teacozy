@@ -1,44 +1,82 @@
-body {
+*{
   margin: 0;
-  font-family: Helvetica;
-  font-size: 22px;
-  color: seashell;
+  padding: 0;
   background-color: black;
+  color: seashell;
   opacity: 0.9;
+}
+
+body{
+  font-size: 22px;
+}
+
+.text_content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  padding: 10px 20px;
+
+}
+
+/*main container*/
+.body_container{
+  display: flex;
+	justify-content: center;
+	flex-flow: column nowrap;
+	align-items: center;
+	width: 1200px;
+	margin-left: 400px;
+	z-index: 1;
+	position: static;
+}
+
+/*header*/
+.header_container {
+  display: flex;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  height: 69px;
+  width: 100%;
+  padding: 10px;
+  z-index: 2;
+  position: fixed;
+}
+
+.header_container li {
+  display: inline;
+  padding: 10px;
+  margin: 7px;
+}
+
+.header_container span{
+  flex: auto;
+}
+
+.header_container img{
+  height: 50px;
+  padding: 10px;
+}
+
+h2, h4 {
+  vertical-align: center;
+  z-index: 1;
+  background: black;
+  width: 1400px;
+  position: relative;
   text-align: center;
 }
 
-header {
+/*Our Mission first panel*/
+.our_mission{
   display: flex;
-  justify-content: row;
+  height: 700px;
   width: 100%;
-  position: fixed;
-  height: 69px;
-  border-bottom: 1px solid seashell;
-  z-indez: 1;
+  justify-content: center;
 }
 
-.flex-container {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-}
-
-img.logo {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 10px;
-  height: 50px;
-}
-
-nav span {
-  display: inline-block;
-  padding: 10px 69px;
-}
-
-.missionlogo {
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+.our_mission .background_image{
+	background-image: url("../images/img-mission-background.jpg");
   text-align: center;
   width: 1200px;
   height: 700px;
@@ -47,21 +85,98 @@ nav span {
   margin-top: 72px;
 }
 
-h2, h4 {
+/*Tea Of The Month second panel*/
+.tea_of_the_month{
+ width: 100%;
+ margin-top: 100px;
+ text-align: center;
 
-  vertical-align: center;
-  z-index: 1;
-  background: black;
+}
+
+.images{
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+  justify-content: center;
+  align-items: center;
+}
+
+.image{
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  align-content: space-around;
+}
+
+.image img{
+  width: 100%;
+  margin: 1px;
+}
+
+.image span{
+  padding: 5px;
+  margin: 2px;
+}
+
+
+/*Locations third panel*/
+.locations{
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: 10px;
+  height: 580px;
+  align-items: center;
+  justify-content: center;
+  align-content: space-around;
   width: 1200px;
-  position: relative;
+  background-image: url("../images/img-locations-background.jpg");
 }
 
-h2 {
-  margin-top: 26%;
-  margin-bottom: 0;
+.column,
+.column2,
+.column3{
+  width: 300px;
+  height: 100px;
+  margin: 0px 40px;
 }
 
-h4 {
-  margin-top: 0;
-  margin-bottom: 25%;
+.locations li{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.text h2{
+  padding: 1px;
+  opacity: 0.9;
+  color: seashell;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+/*footer*/
+.footer_container{
+  height:200px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_container .text_content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*copyright*/
+.copyright span{
+  display: inline;
+  text-align: left;
+  padding: 10px;
+  margin: 3px;
 }
